@@ -1,0 +1,42 @@
+IG_UI_EN = {
+    IGUI_SSS_ErrNoPickup = "I'd probably break this if i try.",
+
+    IGUI_SSS_ErrOnlyPlayer = "You are the only one here.",
+
+    IGUI_SSS_DocumentAdded = "You remember pocketing that a moment ago.",
+    IGUI_SSS_DocumentPocketed = "You put the document in your pocket.",
+
+    IGUI_SSS_ErrNoVehicle = "No vehicle found close to you.",
+
+    IGUI_SSS_AdminTools = "bikinitools: SE",
+    IGUI_SSS_PlaceMovables = "Place movables",
+    IGUI_SSS_MovNoGroup = "Misc. tiles",
+    IGUI_SSS_ErrNoModData = "No ModData found",
+
+    IGUI_SSS_RegionDebugger = "[Debug] IsoRegion view",
+    IGUI_SSS_ZombieDebugger = "[Debug] Zombie population view",
+    IGUI_SSS_ModName = "Project Apocalypse",
+
+    IGUI_SSS_AdmBatchSpawn = "Batch spawn items",
+    IGUI_SSS_AdmBatchSpawnTxt = "One item id (Base.Screwdriver etc) per line",
+
+    IGUI_SSS_ErrTextTooShort = "The text you entered was too short",
+
+    IGUI_SSS_ReadingLineObjectX = "Reading line %1, object %2",
+    IGUI_SSS_ReadingLineXofY = "Reading line %1 / %2",
+    IGUI_SSS_ReadingXRemaining = "[%1 tasks remaining] Reading from ini file",
+    IGUI_SSS_WarnLagFreeze = "%1 objects read. You might experience a short time of lag / freeze. Don't panic and do not click around.",
+
+    IGUI_SSS_ModDataMenu = "ModData of clicked objects",
+    IGUI_SSS_ObjectModData = "ModData (%1)",
+    IGUI_SSS_ObjectIsoFlags = "Properties / flags (%1)",
+
+    IGUI_SSS_DebugTools = "Debug tools and ModData",
+
+    IGUI_SSS_ContainersMenu = "Containers",
+
+    IGUI_SSS_EnabledLC = "enabled",
+    IGUI_SSS_DisabledLC = "disabled",
+
+    IGUI_SSS_ToggleFeature = "Toggle this feature [currently %1]",
+}

@@ -1,0 +1,18 @@
+VERSION = 1,
+
+option SSS.UseRevisedFilePaths = {
+	type = boolean, default = false, page = SSS_Core, translation = SSS_UseRevisedFilePaths,
+}
+option SSS.MakeMDContainersUnbreakable = {
+	type = boolean, default = true, page = SSS_Core, translation = SSS_MakeMDContainersUnbreakable,
+}
+option SSS.UseBaseTimerQueue = {
+	type = boolean, default = true, page = SSS_Core, translation = SSS_UseBaseTimerQueue,
+}
+option SSS.BufferSquareLoadHandlers = {
+	type = double, min = 0, max = 60, default = 5, page = SSS_Core, translation = SSS_BufferSquareLoadHandlers,
+}
+
+option SSS.LogMovableActions = {
+	type = boolean, default = true, page = SSS_Logging, translation = SSS_LogMovableActions,
+}

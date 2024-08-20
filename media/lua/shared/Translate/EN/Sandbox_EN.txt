@@ -1,0 +1,16 @@
+Sandbox_EN = {
+	Sandbox_SSS_Logging = "SSS | Logging",
+
+	Sandbox_SSS_LogMovableActions = "Log movable actions by type",
+	Sandbox_SSS_LogMovableActions_tooltip = "Logs to the server in the directory Zomboid/Lua/SSS_tile_protect/",
+
+	Sandbox_SSS_Core = "SSS | Core settings",
+	Sandbox_SSS_UseRevisedFilePaths = "Use revised file paths (use only on fresh server wipe)",
+	Sandbox_SSS_UseRevisedFilePaths_tooltip = "Throughout the years SSS has grown and because it is in use on many servers I can't just change file paths around. This option will trigger rewrites to newer, better structured file names and paths automatically. ONLY ENABLE IT WHEN YOU FRESHLY WIPED THE SERVER BECAUSE IT WILL MEAN MANY FILE BASED THINGS STOP FUNCTIONING ON A LIVE SERVER!",
+
+	Sandbox_SSS_MakeMDContainersUnbreakable = "Try to make special containers unbreakable (see tooltip)",
+	Sandbox_SSS_MakeMDContainersUnbreakable_tooltip = "This refers to containers marked as vending machine (needs SSS_Economy), dropbox or readonly",
+	Sandbox_SSS_UseBaseTimerQueue = "Use new timer mechanism (better performance - will be default next update)",
+	Sandbox_SSS_BufferSquareLoadHandlers = "Buffer square load events by n seconds (0 = off) [EXPERIMENTAL]",
+	Sandbox_SSS_BufferSquareLoadHandlers_tooltip = "Allows for all SSS bound SquareLoad event handlers to be loaded after the given amount of seconds. This could improve performance when driving because squares might not even exist anymore when the time is over so they are discarded instead.",
+}
